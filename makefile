@@ -52,7 +52,7 @@ build-vue:
 
 .PHONY: install-vue
 install-vue:
-	cd web/vue && yarn install
+	cd web/vue && yarn install --registry=https://registry.npmmirror.com
 
 .PHONY: run-vue
 run-vue:
